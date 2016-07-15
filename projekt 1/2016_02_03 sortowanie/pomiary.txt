@@ -1,0 +1,132 @@
+Platforma testowa:
+
+procesor		intel Core i5 2500k 3.3GHz (OC 4.6 GHz)
+p³yta g³owna		Asrock z77 Pro3
+RAM			Corsair 2 x 4 GB DDR3-1600 CL8 (CMZ8GX3M2A1600C8)
+pamiêc masowa		SSD Crucial CT250MX200SSD1
+system operacyhny	MS Windows 10 Pro
+
+Wyniki pomiarów dla sortowania (obci¹¿enie procesora ~35-40%):
+
+b¹belkowego:
+Srednia dla 1000 elementow tablicy: 0.0008s
+Srednia dla 2000 elementow tablicy: 0.003s
+Srednia dla 4000 elementow tablicy: 0.013s
+Srednia dla 8000 elementow tablicy: 0.0664s
+Srednia dla 16000 elementow tablicy: 0.2982s
+Srednia dla 32000 elementow tablicy: 1.245s
+Srednia dla 64000 elementow tablicy: 5.3004s
+Srednia dla 128000 elementow tablicy: 21.7332s
+Srednia dla 256000 elementow tablicy: 87.1388s
+
+
+przez proste wstawianie:
+Srednia dla 1000 elementow tablicy: 0.0002s
+Srednia dla 2000 elementow tablicy: 0.0006s
+Srednia dla 4000 elementow tablicy: 0.002s
+Srednia dla 8000 elementow tablicy: 0.0094s
+Srednia dla 16000 elementow tablicy: 0.0282s
+Srednia dla 32000 elementow tablicy: 0.1196s
+Srednia dla 64000 elementow tablicy: 0.4732s
+Srednia dla 128000 elementow tablicy: 1.832s
+Srednia dla 256000 elementow tablicy: 7.5996s
+Srednia dla 512000 elementow tablicy: 30.5686s
+
+przez proste wybieranie:
+Srednia dla 1000 elementow tablicy: 0.0002s
+Srednia dla 2000 elementow tablicy: 0.001s
+Srednia dla 4000 elementow tablicy: 0.004s
+Srednia dla 8000 elementow tablicy: 0.015s
+Srednia dla 16000 elementow tablicy: 0.0624s
+Srednia dla 32000 elementow tablicy: 0.2366s
+Srednia dla 64000 elementow tablicy: 0.9476s
+Srednia dla 128000 elementow tablicy: 3.7814s
+Srednia dla 256000 elementow tablicy: 15.1922s
+Srednia dla 512000 elementow tablicy: 60.7592s
+
+Shell'a:
+Srednia dla 1000 elementow tablicy: 0s
+Srednia dla 2000 elementow tablicy: 0s
+Srednia dla 4000 elementow tablicy: 0.0002s
+Srednia dla 8000 elementow tablicy: 0.0004s
+Srednia dla 16000 elementow tablicy: 0.0006s
+Srednia dla 32000 elementow tablicy: 0.002s
+Srednia dla 64000 elementow tablicy: 0.0046s
+Srednia dla 128000 elementow tablicy: 0.01s
+Srednia dla 256000 elementow tablicy: 0.0228s
+Srednia dla 512000 elementow tablicy: 0.0506s
+Srednia dla 1024000 elementow tablicy: 0.109s
+Srednia dla 2048000 elementow tablicy: 0.2386s
+Srednia dla 4096000 elementow tablicy: 0.5248s
+Srednia dla 8192000 elementow tablicy: 1.1628s
+Srednia dla 16384000 elementow tablicy: 2.5396s
+Srednia dla 32768000 elementow tablicy: 5.6896s
+Srednia dla 65536000 elementow tablicy: 12.8802s
+Srednia dla 131072000 elementow tablicy: 29.0064s
+Srednia dla 262144000 elementow tablicy: 67.2526s
+
+szybkiego:
+Srednia dla 1000 elementow tablicy: 0s
+Srednia dla 2000 elementow tablicy: 0s
+Srednia dla 4000 elementow tablicy: 0.0002s
+Srednia dla 8000 elementow tablicy: 0.0002s
+Srednia dla 16000 elementow tablicy: 0.0008s
+Srednia dla 32000 elementow tablicy: 0.0014s
+Srednia dla 64000 elementow tablicy: 0.0046s
+Srednia dla 128000 elementow tablicy: 0.0062s
+Srednia dla 256000 elementow tablicy: 0.0132s
+Srednia dla 512000 elementow tablicy: 0.0306s
+Srednia dla 1024000 elementow tablicy: 0.059s
+Srednia dla 2048000 elementow tablicy: 0.1252s
+Srednia dla 4096000 elementow tablicy: 0.2716s
+Srednia dla 8192000 elementow tablicy: 0.5706s
+Srednia dla 16384000 elementow tablicy: 1.1826s
+Srednia dla 32768000 elementow tablicy: 2.4758s
+Srednia dla 65536000 elementow tablicy: 5.1108s
+Srednia dla 131072000 elementow tablicy: 10.652s
+Srednia dla 262144000 elementow tablicy: 22.0122s
+Srednia dla 524288000 elementow tablicy: 45.5672s
+
+szybkiego z kluczem osiowym jako median¹ 3 elementów tablicy:
+Srednia dla 1000 elementow tablicy: 0s
+Srednia dla 2000 elementow tablicy: 0s
+Srednia dla 4000 elementow tablicy: 0.0002s
+Srednia dla 8000 elementow tablicy: 0.0002s
+Srednia dla 16000 elementow tablicy: 0.0006s
+Srednia dla 32000 elementow tablicy: 0.0014s
+Srednia dla 64000 elementow tablicy: 0.0032s
+Srednia dla 128000 elementow tablicy: 0.0064s
+Srednia dla 256000 elementow tablicy: 0.0136s
+Srednia dla 512000 elementow tablicy: 0.0286s
+Srednia dla 1024000 elementow tablicy: 0.0604s
+Srednia dla 2048000 elementow tablicy: 0.1256s
+Srednia dla 4096000 elementow tablicy: 0.264s
+Srednia dla 8192000 elementow tablicy: 0.5492s
+Srednia dla 16384000 elementow tablicy: 1.1384s
+Srednia dla 32768000 elementow tablicy: 2.3796s
+Srednia dla 65536000 elementow tablicy: 4.9352s
+Srednia dla 131072000 elementow tablicy: 10.2652s
+Srednia dla 262144000 elementow tablicy: 21.1804s
+Srednia dla 524288000 elementow tablicy: 43.844s
+
+szybkiego z sortowaniem przez proste wstawianie dla pozosta³ych 20 nieposortowanych elementów tablicy:
+Srednia dla 1000 elementow tablicy: 0s
+Srednia dla 2000 elementow tablicy: 0s
+Srednia dla 4000 elementow tablicy: 0.0002s
+Srednia dla 8000 elementow tablicy: 0.0002s
+Srednia dla 16000 elementow tablicy: 0.0008s
+Srednia dla 32000 elementow tablicy: 0.0012s
+Srednia dla 64000 elementow tablicy: 0.0026s
+Srednia dla 128000 elementow tablicy: 0.0054s
+Srednia dla 256000 elementow tablicy: 0.0114s
+Srednia dla 512000 elementow tablicy: 0.0242s
+Srednia dla 1024000 elementow tablicy: 0.0514s
+Srednia dla 2048000 elementow tablicy: 0.1086s
+Srednia dla 4096000 elementow tablicy: 0.2298s
+Srednia dla 8192000 elementow tablicy: 0.4876s
+Srednia dla 16384000 elementow tablicy: 0.9988s
+Srednia dla 32768000 elementow tablicy: 2.0896s
+Srednia dla 65536000 elementow tablicy: 4.3512s
+Srednia dla 131072000 elementow tablicy: 9.0702s
+Srednia dla 262144000 elementow tablicy: 18.7986s
+Srednia dla 524288000 elementow tablicy: 39.0498s
